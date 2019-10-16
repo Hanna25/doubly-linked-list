@@ -4,6 +4,10 @@ class Node {
         this.prev = prev;
         this.next = next;
     }
+
+    isEqual(node) {
+        return this.data === node.data;
+    }
 }
 
 module.exports = Node;
